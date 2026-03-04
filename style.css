@@ -69,3 +69,67 @@ h1 {
 #theme-toggle:hover {
     opacity: 0.8;
 }
+
+.contact-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.contact-section hr {
+    border: 0;
+    border-top: 1px solid var(--bg-pattern-color);
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    color: var(--text-color);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--bg-pattern-color);
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--button-bg);
+    box-shadow: 0 0 5px var(--button-bg);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--button-hover-bg);
+}
